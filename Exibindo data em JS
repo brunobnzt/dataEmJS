@@ -1,0 +1,3 @@
+now = new Date
+mesAtual = new Array ('janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho','julho','agosto','setembro','outubro','novembro','dezembro')
+console.log('Olá.\nEstamos no dia', now.getDate(),'de', mesAtual[now.getMonth()],'de', now.getFullYear(),'.');
